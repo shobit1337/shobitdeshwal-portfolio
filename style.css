@@ -23,6 +23,12 @@ body {
   text-decoration: none;
   color: #f3eed9;
 }
+.link--selected {
+  background-color: #f5f6fa;
+  color: #6b2210;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
 
 .nav__list {
   text-align: right;
@@ -47,7 +53,7 @@ body {
 }
 
 .container {
-  margin: 0 15rem auto;
+  margin: 0 5em auto;
   padding: 3rem;
   text-align: center;
 }
@@ -85,9 +91,15 @@ body {
 }
 
 .btn {
-  padding: 0.7rem 1.7rem;
+  padding: 0.7em 1.2em;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  background-color: #f5f6fa;
+  color: #6b2210;
+  text-decoration: none;
+  font-weight: 900;
+  margin: 3em 3em 3em 3em;
+  border: 2px solid #6b2210;
 }
 
 .social-svg {
