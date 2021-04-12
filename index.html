@@ -8,46 +8,67 @@
     <title>Shobit Deshwal></title>
   </head>
   <body>
-    <nav>
-      <a href="#">My Portfolio</a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Blogs</a></li>
+    <nav class="nav">
+      <a class="nav__title link" href="#">My Portfolio</a>
+      <ul class="nav__list">
+        <li class="nav__item"><a class="link" href="#">Home</a></li>
+        <li class="nav__item"><a class="link" href="#">Projects</a></li>
+        <li class="nav__item"><a class="link" href="#">Blogs</a></li>
       </ul>
     </nav>
-    <header>
-      <img src="" alt="" />
-      Shobit Deshwal The Web Developer
-    </header>
-    <section>
-      <h2>Technologies</h2>
-      <p>HTML, CSS, JavaScript, React, MongoDB, NodeJS, C++, JAVA</p>
-    </section>
-    <section>
-      <h2>My Projects</h2>
-      <p>Here you can see all the pojects that I have created.</p>
-      <button>Browse Projects</button>
-    </section>
-    <section>
-      <h2>Blogs</h2>
+    <header class="hero container">
+      <img class="hero__img" src="./img/hero.svg" alt="" />
+      <h1 class="hero__text">Hello I am Shobit Deshwal,</h1>
       <p>
-        These are some of the blogs that I've written in past. Feel free to take
-        a look at them.
+        I'm a Front-end Developer and open source enthueast. I enjoy keep
+        learning and apply new technologies.
       </p>
-      <button>Read Blogs</button>
+    </header>
+    <section class="section-1">
+      <div class="container">
+        <h2>Technologies</h2>
+        <p>HTML, CSS, JavaScript, React, MongoDB, NodeJS, C++, JAVA</p>
+      </div>
     </section>
-    <footer>
-      <h2>Follow me on</h2>
-      <ul>
-        <li>
-          <a><img href="" />LinkedIn</a>
+    <section class="section-2">
+      <div class="container">
+        <h2>My Projects</h2>
+        <p>Here you can see all the pojects that I have created.</p>
+        <button class="btn">Browse Projects</button>
+      </div>
+    </section>
+    <section class="section-1">
+      <div class="container">
+        <h2>Blogs</h2>
+        <p>
+          These are some of the blogs that I've written in past. Feel free to
+          take a look at them.
+        </p>
+        <button class="btn">Read Blogs</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <h2 class="footer__title">--===Follow me on===--</h2>
+      <ul class="footer__social__list">
+        <li class="footer__social__listitem">
+          <a class="link" href="https://www.linkedin.com/in/shobit-deshwal/"
+            ><img class="social-svg" src="/img/linkedin-logo.svg" />LinkedIn</a
+          >
         </li>
-        <li>
-          <a><img href="" />Twitter</a>
+        <li class="footer__social__listitem">
+          <a class="link" href="https://twitter.com/shobit1337"
+            ><img class="social-svg" src="/img/twitter.svg" />Twitter</a
+          >
         </li>
-        <li>
-          <a><img href="" />Instagram</a>
+        <li class="footer__social__listitem">
+          <a class="link" href="https://www.instagram.com/starcoder.js/"
+            ><img class="social-svg" src="/img/instagram.svg" />Instagram</a
+          >
+        </li>
+        <li class="footer__social__listitem">
+          <a class="link" href="https://github.com/shobit1337"
+            ><img class="social-svg" src="/img/github-sign.svg" />GitHub</a
+          >
         </li>
       </ul>
     </footer>
