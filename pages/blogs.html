@@ -8,26 +8,27 @@
     <title>Shobit Deshwal</title>
   </head>
   <body>
-    <nav class="nav">
-      <a class="nav__title link" href="#">My Portfolio</a>
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="link" href="/index.html">Home</a>
-        </li>
-        <li class="nav__item">
-          <a class="link" href="/pages/projects.html">Projects</a>
-        </li>
-        <li class="nav__item link--selected">
-          <a class="link link--selected" href="/pages/blogs.html">Blogs</a>
-        </li>
-      </ul>
+    <nav class="nav flex">
+      <a class="nav-title link" href="#">My Portfolio</a>
+
+      <div class="nav-list">
+        <a class="link nav-item" href="/index.html">Home</a>
+
+        <a class="link nav-item" href="/pages/projects.html">Projects</a>
+
+        <a class="link nav-item link--selected" href="/pages/blogs.html"
+          >Blogs</a
+        >
+      </div>
     </nav>
 
-    <header class="hero container">
-      <h1 class="hero__text">My Blogs</h1>
+    <header class="flex hero">
+      <div class="container">
+        <h1 class="hero-text">My Blogs</h1>
+      </div>
     </header>
 
-    <section class="section-1">
+    <section class="flex section-1">
       <div class="container">
         <h2>Sample Blog 1</h2>
         <p>
@@ -36,11 +37,11 @@
           fugiat enim iusto voluptate perferendis quam ab temporibus quidem
           quisquam.
         </p>
-        <a href="#" class="btn"> Read more </a>
+        <a href="#" target="_blank" class="btn">Read more</a>
       </div>
     </section>
 
-    <section class="section-2">
+    <section class="flex section-2">
       <div class="container">
         <h2>Sample Blog 2</h2>
         <p>
@@ -49,30 +50,36 @@
           laudantium sint quis debitis vel, incidunt commodi mollitia placeat
           eos eius veritatis.
         </p>
-        <a href="#" class="btn"> Read more </a>
+        <a href="#" target="_blank" class="btn">Read more</a>
       </div>
     </section>
 
     <footer class="footer">
-      <h2 class="footer__title">--===Follow me on===--</h2>
-      <ul class="footer__social__list">
-        <li class="footer__social__listitem">
-          <a class="link" href="https://www.linkedin.com/in/shobit-deshwal/"
+      <h2 class="footer-title">--===Contact me on===--</h2>
+      <ul class="footer-social-list">
+        <li class="footer-social-listitem">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/shobit-deshwal/"
+            target="_blank"
             ><img class="social-svg" src="/img/linkedin-logo.svg" />LinkedIn</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://twitter.com/shobit1337"
+        <li class="footer-social-listitem">
+          <a class="link" href="https://twitter.com/shobit1337" target="_blank"
             ><img class="social-svg" src="/img/twitter.svg" />Twitter</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://www.instagram.com/starcoder.js/"
+        <li class="footer-social-listitem">
+          <a
+            class="link"
+            href="https://www.instagram.com/starcoder.js/"
+            target="_blank"
             ><img class="social-svg" src="/img/instagram.svg" />Instagram</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://github.com/shobit1337"
+        <li class="footer-social-listitem">
+          <a class="link" href="https://github.com/shobit1337" target="_blank"
             ><img class="social-svg" src="/img/github-sign.svg" />GitHub</a
           >
         </li>

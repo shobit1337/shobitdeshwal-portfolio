@@ -13,42 +13,43 @@
     <title>Shobit Deshwal</title>
   </head>
   <body>
-    <nav class="nav">
-      <a class="nav__title link" href="#">My Portfolio</a>
-      <ul class="nav__list">
-        <li class="nav__item link--selected">
-          <a class="link link--selected" href="/index.html">Home</a>
-        </li>
-        <li class="nav__item">
-          <a class="link" href="/pages/projects.html">Projects</a>
-        </li>
-        <li class="nav__item">
-          <a class="link" href="/pages/blogs.html">Blogs</a>
-        </li>
-      </ul>
+    <nav class="nav flex">
+      <a class="nav-title link" href="#">My Portfolio</a>
+
+      <div class="nav-list">
+        <a class="link nav-item link--selected" href="/index.html">Home</a>
+
+        <a class="link nav-item" href="/pages/projects.html">Projects</a>
+
+        <a class="link nav-item" href="/pages/blogs.html">Blogs</a>
+      </div>
     </nav>
-    <header class="hero container">
-      <img class="hero__img" src="./img/hero.svg" alt="" />
-      <h1 class="hero__text">Hello I am Shobit Deshwal,</h1>
-      <p>
-        I'm a Front-end Developer and open source enthueast. I enjoy keep
-        learning and apply new technologies.
-      </p>
+
+    <header class="flex hero">
+      <div class="container">
+        <img class="hero-img" src="./img/hero.svg" alt="" />
+        <h1 class="hero-text">Hello I am Shobit Deshwal,</h1>
+        <p>
+          I'm a Front-end Developer and open source enthueast. I enjoy keep
+          learning and apply new technologies.
+        </p>
+      </div>
     </header>
-    <section class="section-1">
+
+    <section class="flex section-1">
       <div class="container">
         <h2>Technologies</h2>
         <p>HTML, CSS, JavaScript, React, MongoDB, NodeJS, C++, JAVA</p>
       </div>
     </section>
-    <section class="section-2">
+    <section class="flex section-2">
       <div class="container">
         <h2>My Projects</h2>
         <p>Here you can see all the pojects that I have created.</p>
         <a href="/pages/projects.html" class="btn">Browse Projects</a>
       </div>
     </section>
-    <section class="section-1">
+    <section class="flex section-1">
       <div class="container">
         <h2>Blogs</h2>
         <p>
@@ -59,25 +60,31 @@
       </div>
     </section>
     <footer class="footer">
-      <h2 class="footer__title">--===Follow me on===--</h2>
-      <ul class="footer__social__list">
-        <li class="footer__social__listitem">
-          <a class="link" href="https://www.linkedin.com/in/shobit-deshwal/"
+      <h2 class="footer-title">--===Contact me on===--</h2>
+      <ul class="footer-social-list">
+        <li class="footer-social-listitem">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/shobit-deshwal/"
+            target="_blank"
             ><img class="social-svg" src="/img/linkedin-logo.svg" />LinkedIn</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://twitter.com/shobit1337"
+        <li class="footer-social-listitem">
+          <a class="link" href="https://twitter.com/shobit1337" target="_blank"
             ><img class="social-svg" src="/img/twitter.svg" />Twitter</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://www.instagram.com/starcoder.js/"
+        <li class="footer-social-listitem">
+          <a
+            class="link"
+            href="https://www.instagram.com/starcoder.js/"
+            target="_blank"
             ><img class="social-svg" src="/img/instagram.svg" />Instagram</a
           >
         </li>
-        <li class="footer__social__listitem">
-          <a class="link" href="https://github.com/shobit1337"
+        <li class="footer-social-listitem">
+          <a class="link" href="https://github.com/shobit1337" target="_blank"
             ><img class="social-svg" src="/img/github-sign.svg" />GitHub</a
           >
         </li>
