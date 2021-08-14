@@ -2,22 +2,28 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   font-family: "Merriweather", serif;
-  margin: 0;
   background-color: #f5f6fa;
-  min-width: 500px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
   background-color: #6b2210;
   background-image: linear-gradient(315deg, #6b2210 0%, #a65b31 74%);
   color: #f3eed9;
-  font-size: 2em;
+  justify-content: space-between;
+  flex-wrap: wrap;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   padding: 0 2em;
+  padding-top: 1.5rem;
 }
 
 .link {
@@ -32,27 +38,26 @@ body {
   border-top-right-radius: 1rem;
 }
 
-.nav__list {
-  text-align: right;
-  margin: 0;
-}
-.nav__item {
+.nav-item {
   display: inline-block;
   text-align: center;
   padding: 0.5rem 3rem;
 }
-.nav__title {
+
+@media (max-width: 550px) {
+  .nav-item {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.nav-title {
   display: inline-block;
   padding: 0.5rem;
 }
 .container {
-  margin: 0 5em auto;
-  padding: 2rem 15rem;
+  padding: 2rem 5rem;
+  max-width: 600px;
   text-align: center;
-  min-width: 500px;
-}
-section {
-  font-size: 1.1em;
 }
 .section-1 {
   background-color: #f3eed9;
@@ -63,36 +68,12 @@ section {
   color: #f3eed9;
 }
 
-.hero__img {
-  width: 90%;
+.hero-img {
+  width: 100%;
 }
-.hero__text {
+.hero-text {
   font-size: 2rem;
   color: #222c2a;
-}
-
-.footer {
-  background-color: #6b2210;
-  background-image: linear-gradient(315deg, #6b2210 0%, #a65b31 74%);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  margin: 0;
-}
-
-.footer__title {
-  text-align: center;
-  margin: 0;
-  padding-top: 1.5rem;
-}
-
-.footer__social__list {
-  text-align: center;
-  padding: 1rem 0 2rem 0;
-}
-.footer__social__listitem {
-  padding: 1.2rem;
-  text-decoration: none;
-  display: inline-block;
 }
 
 .btn {
@@ -103,12 +84,37 @@ section {
   color: #6b2210;
   text-decoration: none;
   border: 2px solid #6b2210;
-
-  min-width: 100px;
-  padding: 0.7em 1.2em;
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
 }
 .btn:hover {
-  background-color: #a65b31;
+  background-color: #6b2210;
+  color: #f3eed9;
+}
+
+/* Footer */
+.footer {
+  background-color: #6b2210;
+  background-image: linear-gradient(315deg, #6b2210 0%, #a65b31 74%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin: 0;
+}
+
+.footer-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+.footer-social-list {
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+.footer-social-listitem {
+  padding: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .social-svg {
