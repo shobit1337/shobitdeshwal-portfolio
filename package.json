@@ -1,0 +1,43 @@
+{
+  "name": "shobitdeshwal-portfolio",
+  "version": "1.0.0",
+  "description": "A Software Engineer from India, who loves to solve problem and build UI Interfaces.",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^4.0.2",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "author": "Shobit Deshwal <shobitdeshwal1337@gmail.com>",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-minimal-theme",
+  "homepage": "https://shobitdeshwal.codes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shobit1337/shobitdeshwal-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shobit1337/shobitdeshwal-portfolio/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ]
+}

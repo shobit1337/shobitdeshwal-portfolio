@@ -1,0 +1,18 @@
+{
+  "intro": "Hej",
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm a Frontend/UI Engineer",
+  "subtitle": {
+    "prefix": "I build web app ",
+    "highlight": "for you",
+    "suffix": "."
+  },
+  "description": "A Software Engineer from India, who loves to solve problem and build UI Interfaces.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": false
+  }
+}

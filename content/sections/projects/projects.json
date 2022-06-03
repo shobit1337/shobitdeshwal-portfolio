@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "🕹️ Online Games store",
+      "title": "Gamotore",
+      "description": "Gamotore has most of the features that normally an eCommerce website has. Gaming theme with a beautiful UI, Sorting/Filtering of games, searching your games, saving them to your wishlist and cart even when you are offline or not logged in, pagination, and payment integration using Razorpay.",
+      "tags": ["ReactJS", "MirageJS", "React-rotuer-dom", "HTML/CSS"],
+      "image": {
+        "src": "../../images/Gamotore.png",
+        "alt": "gamotore-thumbnail",
+        "linkTo": "https://gamotore-react.netlify.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/gamotore-react/"
+        },
+        {
+          "type": "external",
+          "url": "https://gamotore-react.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 Project Management Tool",
+      "title": "Remotec",
+      "description": "Single platform to track the progress of all the projects, status of each task with due dates. Making product managers and employee’s work easier. Schedules events and meetings with anyone in the team, without going to 3 different platforms.",
+      "tags": ["ReactJS", "Firebase", "MaterialUI", "ChartJS", "PWA"],
+      "image": {
+        "src": "../../images/Remotec.png",
+        "alt": "Extendable Layout",
+        "linkTo": "https://remotec.vercel.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/remotec"
+        },
+        {
+          "type": "external",
+          "url": "https://remotec.vercel.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📺 Video Library",
+      "title": "ReelFlix",
+      "description": "ReelFlix is similar to youtube but for movies, It allows you to like/dislike, add movies to watch later list, and even create your own custom playlists.",
+      "tags": [
+        "ReactJS",
+        "MirageJS",
+        "React-rotuer-dom",
+        "HTML/CSS",
+        "CloudUI"
+      ],
+      "image": {
+        "src": "../../images/ReelFlix.png",
+        "alt": "reelflix-thumbnail",
+        "linkTo": "https://reelflix.netlify.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/ReelFlix"
+        },
+        {
+          "type": "external",
+          "url": "https://reelflix.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📑 Quiz Platform",
+      "title": "Quizmill",
+      "description": "Quizmill is a platform for participating in quizzes. It also allows you to create your quiz and share them with your friends. Get Scores from the quiz you join.",
+      "tags": [
+        "ReactJS",
+        "TypeScript",
+        "Firebase",
+        "CloudUI",
+        "React-rotuer-dom",
+        "HTML/CSS"
+      ],
+      "image": {
+        "src": "../../images/Quizmill.png",
+        "alt": "quizmill-thumbnail",
+        "linkTo": "https://quizmill.netlify.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/quizmill"
+        },
+        {
+          "type": "external",
+          "url": "https://quizmill.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🎨 Component Library",
+      "title": "CloudUI",
+      "description": "CloudUI is a Component + Utility UI library that provides readymade beautiful and responsive components to fast track any website's development. It gives classes with good naming conventions that are easy to understand.",
+      "tags": ["HTML", "CSS", "HTML/CSS"],
+      "image": {
+        "src": "../../images/CloudUI.png",
+        "alt": "cloudui-thumbnail",
+        "linkTo": "https://cloud-ui-css.netlify.app/docs/pages/docs.html"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/cloud-ui"
+        },
+        {
+          "type": "external",
+          "url": "https://cloud-ui-css.netlify.app/docs/pages/docs.html"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🎨 Chat Application",
+      "title": "Chatting Rooms",
+      "description": "Chating Rooms allows you to create public chat rooms and start any conversation you like. It uses google authentication to authorize. You can send messages and photos to anyone in the chatroom.",
+      "tags": ["ReactJS", "Styled-components", "Redux-Toolkit", "Firebase"],
+      "image": {
+        "src": "../../images/Chat-App.png",
+        "alt": "chatting-thumbnail",
+        "linkTo": "https://chating-rooms.web.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/shobit1337/chating-rooms"
+        },
+        {
+          "type": "external",
+          "url": "https://chating-rooms.web.app/"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "Visit on Github",
+    "url": "https://github.com/shobit1337"
+  }
+}

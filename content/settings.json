@@ -1,0 +1,45 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://shobitdeshwal.codes/",
+    "title": "Shobit Deshwal's Portfolio Website",
+    "titleTemplate": "%s · Portfolio",
+    "description": "Full Stack Developer with experience in building high-performing, responsive, beautiful web applications to deliver a unique, intuitive user experience that works.",
+    "author": "Shobit Deshwal",
+    "avatar": "../content/images/shobit.png",
+    "bio": "I'm a Frontend Developer with experience in building high-performing, responsive, beautiful web applications to deliver a unique, intuitive user experience that works. I am a well-trained teammate who loves to share ideas and prioritizes communication in order to achieve goals within the set deadlines. I enjoy being challenged and working on projects that require me to step outside of my comfort zone, so my motto is “Whatever comes up, I’ll figure it out!”.",
+    "social": {
+      "behance": "https://behance.com",
+      "github": "https://github.com/shobit1337",
+      "medium": "https://hashnode.com/@shobit1337",
+      "hashnode": "https://hashnode.com/@shobit1337",
+      "linkedin": "https://www.linkedin.com/in/shobit-deshwal/",
+      "mail": "mailto:shobitdeshwal1337@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Shobit Deshwal" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "https://blog.shobitdeshwal.codes/" },
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Github", "url": "/#github" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/shobit_deshwal_resume.pdf"
+      },
+      "footer": [
+        { "label": "Privacy", "url": "/privacy" },
+        { "label": "Imprint", "url": "/imprint" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

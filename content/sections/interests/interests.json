@@ -1,0 +1,135 @@
+{
+  "interests": [
+    {
+      "label": "ReactJS",
+      "image": {
+        "src": "../../images/ReactJS.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "TypeScript",
+      "image": {
+        "src": "../../images/TypeScript.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Responsive Design",
+      "image": {
+        "src": "../../images/nail-polish.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "GraphQL",
+      "image": {
+        "src": "../../images/GraphQL.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Redux",
+      "image": {
+        "src": "../../images/Redux.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Tailwind",
+      "image": {
+        "src": "../../images/Tailwind.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "PWA (Offline Support)",
+      "image": {
+        "src": "../../images/PWA.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Modern Tech-Stack",
+      "image": {
+        "src": "../../images/gatsby.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "JavaScript",
+      "image": {
+        "src": "../../images/js.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "HTML5",
+      "image": {
+        "src": "../../images/HTML.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "CSS3",
+      "image": {
+        "src": "../../images/CSS.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Problem Solving",
+      "image": {
+        "src": "../../images/medium.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Data Structure",
+      "image": {
+        "src": "../../images/DS.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Algorithms",
+      "image": {
+        "src": "../../images/Algo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "MaterialUI",
+      "image": {
+        "src": "../../images/Mui.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Firebase",
+      "image": {
+        "src": "../../images/Firebase.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "NodeJS",
+      "image": {
+        "src": "../../images/NodeJS.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Bootstrap",
+      "image": {
+        "src": "../../images/Bootstrap.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 8
+  }
+}
