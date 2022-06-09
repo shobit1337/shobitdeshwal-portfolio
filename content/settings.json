@@ -32,8 +32,7 @@
         "url": "/shobit_deshwal_resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Privacy", "url": "/privacy" }
       ]
     },
     "featureToggles": {
