@@ -6,13 +6,13 @@
   },
   "title": "I'm a Frontend/UI Engineer",
   "subtitle": {
-    "prefix": "I build web app ",
-    "highlight": "for you",
-    "suffix": " with a focus on React & TypeScript."
+    "prefix": "I build apps with a focus on ",
+    "highlight": "React & TypeScript",
+    "suffix": "."
   },
   "description": "A Software Engineer from India, who loves to solve problems and build user interfaces.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Hashnode", "Github", "Mail"],
     "showIcons": false
   }
 }
