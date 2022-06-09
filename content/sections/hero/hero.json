@@ -1,5 +1,5 @@
 {
-  "intro": "Hej",
+  "intro": "Hey",
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
@@ -8,9 +8,9 @@
   "subtitle": {
     "prefix": "I build web app ",
     "highlight": "for you",
-    "suffix": "."
+    "suffix": " with a focus on React & TypeScript."
   },
-  "description": "A Software Engineer from India, who loves to solve problem and build UI Interfaces.",
+  "description": "A Software Engineer from India, who loves to solve problems and build user interfaces.",
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
     "showIcons": false
